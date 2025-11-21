@@ -1,0 +1,47 @@
+.header {
+  background: var(--bg-white);
+  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, var(--primary-blue), var(--secondary-emerald));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logoText {
+  color: var(--bg-white);
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.titleSection h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.titleSection p {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin: 0;
+}
